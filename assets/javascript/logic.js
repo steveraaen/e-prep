@@ -1,7 +1,7 @@
 $(document).ready(function() {
-
     var btn;
-
+//===================================================================
+// Render the category buttons
     $('#list').on('click', function() {
         for (let i = 0; i < kits.length; i++) {
             btn = $('<input id = "' + kits[i][0].kitName + '" class = "kit-btn" type="button" data-inline="true" value = "' + kits[i][0].kitName + '">' + kits[i][0].icon + '</input>')
@@ -9,14 +9,20 @@ $(document).ready(function() {
             $('#buttons').append(btn);
         }
        /* $('#list').off('click')*/
-    });
 
+    });
+//===================================================================
+// 
     $(document).on('click', '#Evac', function() {
 
         for (let i = 1; i < goKit.length; i++) {
             console.log("go" + goKit[i].icon)
-            $('#l1').append('<li>' + goKit[i].need + '  ....  ' + goKit[i].icon+  '</li>'  )
+            $('#content1').append('<div class="ui-block-a"><span>' + goKit[i].need + 
+                '</span></div><div class="ui-block-b"><span>' + goKit[i].icon +  
+                '</span></div><div class="ui-block-c"><span>' + iInfo +  
+                '</span></div><div class="ui-block-d"><span>' + iWarn +'</span></div>')
         }
+        $( "#t1" ).table( "rebuild" );
     })
     //-----------
         $(document).on('click', '#Stay', function() {

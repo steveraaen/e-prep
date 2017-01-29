@@ -34,11 +34,12 @@
    var iUmbrella = '<i class="fa fa-umbrella" aria-hidden="true"></i>'
    var iUnk = '<i class="fa fa-window-close" aria-hidden="true"></i>'
    var iUserCirc =  '<i class="fa fa-user-circle" aria-hidden= "true"></i>';
+   var iWarn = '<i class="fa fa-exclamation" aria-hidden="true"></i>'
    var iWater = '<i class="fa fa-tint" aria-hidden="true"></i>';
 
 
 
-   var icons = [iBank, iBed, iBattery, iBike, iCar, iChild, iCredit, iFemale, iFire, iFireEx, iFood, iHeart, iHome, iIdCard, iInfo, iKey, iLight, iMale, iMap, iMedkit, iMoney, iMug, iPaw, iPencil, iPhone, iPhoto, iPlace, iRadio, iSenior, iShop, iSpoon, iTech, iTrain, iUmbrella, iUnk, iUserCirc, iWater]
+   var icons = [iBank, iBed, iBattery, iBike, iCar, iChild, iCredit, iFemale, iFire, iFireEx, iFood, iHeart, iHome, iIdCard, iInfo, iKey, iLight, iMale, iMap, iMedkit, iMoney, iMug, iPaw, iPencil, iPhone, iPhoto, iPlace, iRadio, iSenior, iShop, iSpoon, iTech, iTrain, iUmbrella, iUnk, iUserCirc, iWarn, iWater]
 
 
 
