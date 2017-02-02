@@ -7,3 +7,9 @@
 span{
 	margin-left: 20%;
 }
+/*h1{
+	font-family: 'Overpass Mono', monospace;
+}*/
+.ui-block-c {
+	overflow: auto;
+}
