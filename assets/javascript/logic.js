@@ -39,7 +39,7 @@ $(document).ready(function() {
             e.preventDefault()
            wrapGo.append(goKit[0].icon + '<h2>'+ goKit[0].longName + '</h2>');
                for (let i = 1; i < goKit.length; i++) {
-                wrapGo.append('<div class = "ui-grid-b ui-btn"><div class ="ui-block-a"><a href="#needDesc" data-rel="popup" data-transition="pop"  >' + goKit[i].icon + '</a></div><div class ="ui-block-b">' + goKit[i].need + '</div><div class ="ui-block-c">' + goKit[i].descrip + '</div></div>')
+                wrapGo.append('<div class = "ui-grid-b ui-btn"><div class ="ui-block-a"><a href="#needDesc" data-rel="popup" data-transition="pop"  >' + goKit[i].icon + '</a></div><div class ="ui-block-b">' + goKit[i].need + '</div><div class ="ui-block-c"><div class="checkbox"><label><input type="checkbox" value="">Add To List</label></div></div>')
 
                 $('.listGo').collapsible();              
                 }
@@ -48,12 +48,28 @@ $(document).ready(function() {
            $('.wrapGo').collapsible();
            $(document).off('click', '#Evac')
             });
-// =================== STAY KIT ======================================
-        $(document).on('click', '#Stay', function(e) {
+// =================== GO KIT ======================================
+ 
+/*        $(document).on('click', '#Evac', function(e) {
+
+            e.preventDefault()
+           wrapGo.append(goKit[0].icon + '<h2>'+ goKit[0].longName + '</h2>');
+               for (let i = 1; i < goKit.length; i++) {
+                wrapGo.append('<div class = "ui-grid-b ui-btn"><div class ="ui-block-a"><a href="#needDesc" data-rel="popup" data-transition="pop"  >' + goKit[i].icon + '</a></div><div class ="ui-block-b">' + goKit[i].need + '</div><div class ="ui-block-c">' + goKit[i].descrip + '</div></div>')
+
+                $('.listGo').collapsible();              
+                }
+           wrapGo.append(listGo);
+           $('#listDiv').append(wrapGo);         
+           $('.wrapGo').collapsible();
+           $(document).off('click', '#Evac')
+            });*/
+// =================== GO KIT ======================================
+       $(document).on('click', '#Stay', function(e) {
             e.preventDefault()
            wrapStay.append('<h2>'+ stayKit[0].longName + '</h2>');
                for (let i = 1; i < stayKit.length; i++) {
-                wrapStay.append('<div class = "ui-grid-b ui-btn"><div class ="ui-block-a">' + stayKit[i].icon + '</div><div class ="ui-block-b">' + stayKit[i].need + '</div><div class ="ui-block-c">' + stayKit[i].descrip + '</div></div>')
+                wrapStay.append('<div class = "ui-grid-b ui-btn"><div class ="ui-block-a">' + stayKit[i].icon + '</div><div class ="ui-block-b">' + stayKit[i].need + '</div><div class ="ui-block-c"><div class="checkbox"><label><input type="checkbox" value="">Add To List</label></div></div>')
                 $('.list').collapsible();              
                 }
            wrapStay.append(listStay);
@@ -66,7 +82,7 @@ $(document).ready(function() {
             e.preventDefault()
            wrapSenior.append('<h2>'+ seniorKit[0].longName + '</h2>');
                for (let i = 1; i < seniorKit.length; i++) {
-                wrapSenior.append('<div class = "ui-grid-b ui-btn"><div class ="ui-block-a">' + seniorKit[i].icon + '</div><div class ="ui-block-b">' + seniorKit[i].need + '</div><div class ="ui-block-c">' + seniorKit[i].descrip + '</div></div>')
+                wrapSenior.append('<div class = "ui-grid-b ui-btn"><div class ="ui-block-a">' + seniorKit[i].icon + '</div><div class ="ui-block-b">' + seniorKit[i].need + '</div><div class ="ui-block-c"><div class="checkbox"><label><input type="checkbox" value="">Add To List</label></div></div>')
                 $('.list').collapsible();              
                 }
            wrapSenior.append(listSenior);
@@ -79,7 +95,7 @@ $(document).ready(function() {
             e.preventDefault()
            wrapPet.append('<h2>'+ petKit[0].longName + '</h2>');
                for (let i = 1; i < petKit.length; i++) {
-                wrapPet.append('<div class = "ui-grid-b ui-btn"><div class ="ui-block-a">' + petKit[i].icon + '</div><div class ="ui-block-b">' + petKit[i].need + '</div><div class ="ui-block-c">' + petKit[i].descrip + '</div></div>')
+                wrapPet.append('<div class = "ui-grid-b ui-btn"><div class ="ui-block-a">' + petKit[i].icon + '</div><div class ="ui-block-b">' + petKit[i].need + '</div><div class ="ui-block-c"><div class="checkbox"><label><input type="checkbox" value="">Add To List</label></div></div>')
                 $('.list').collapsible();              
                 }
            wrapPet.append(listPet);
@@ -92,7 +108,7 @@ $(document).ready(function() {
             e.preventDefault()
            wrapCar.append('<h2>'+ carKit[0].longName + '</h2>');
                for (let i = 1; i < carKit.length; i++) {
-                wrapCar.append('<div class = "ui-grid-b ui-btn"><div class ="ui-block-a">' + carKit[i].icon + '</div><div class ="ui-block-b">' + carKit[i].need + '</div><div class ="ui-block-c">' + carKit[i].descrip + '</div></div>')
+                wrapCar.append('<div class = "ui-grid-b ui-btn"><div class ="ui-block-a">' + carKit[i].icon + '</div><div class ="ui-block-b">' + carKit[i].need + '</div><div class ="ui-block-c"><div class="checkbox"><label><input type="checkbox" value="">Add To List</label></div>/div>')
                 $('.list').collapsible();              
                 }
            wrapCar.append(listCar);

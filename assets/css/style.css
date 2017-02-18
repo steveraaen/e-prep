@@ -13,3 +13,19 @@ span{
 .ui-block-c {
 	overflow: auto;
 }
+.pop{
+	width: 150%;
+	height: auto;
+	overflow: auto;
+	background-color: blue;
+}
+.flow{
+	overflow: auto;
+}
+.tCol1 {
+	width: 10%;
+}
+#mypanel{
+	font-size: 20px;
+	
+}

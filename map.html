@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="https://use.fontawesome.com/48a8c3f190.js"></script>
+    <script type="text/javascript" src="assets/javascript/const.js"></script>
+    <script type="text/javascript" src="assets/javascript/prep.js"></script>
+<style>
+th {
+    border-bottom: 1px solid #d6d6d6;
+}
+
+tr:nth-child(even) {
+    background: #e9e9e9;
+}
+</style>
+</head>
+<body>
+    <div data-role="panel"  id="mypanel">
+  </div>
+<div data-role="page" id="pageone">
+
+  <div data-role="header">
+    <h1>E_Prep</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <form>
+      <input id="filterTable-input" data-type="search" placeholder="Preparation">
+    </form>
+    <table data-role="table"  class="ui-responsive ui-shadow"  data-filter="true" data-input="#filterTable-input">
+      <thead>
+        <tr>         
+          <th>Need</th>
+          <th>More...</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="myTable">
+      </tbody>
+    </table>
+  </div>
+
+<!--   <div data-role="footer">
+    <h1>Footer Text</h1>
+  </div> -->
+</div> 
+</body>
+</html>

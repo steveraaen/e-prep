@@ -1,5 +1,6 @@
 
 var iBank =  '<i class="fa fa-university" aria-hidden= "true"></i>';
+
 var iBattery = '<i class="fa fa-battery-half" aria-hidden="true"></i>';
 var iBed = '<i class="fa fa-bed" aria-hidden="true"></i>'
 var iBike = '<i class="fa fa-bicycle" aria-hidden="true"></i>'
@@ -49,14 +50,14 @@ var goKit = [
   },
 
 	{	
-		'event' : ["All Events","Earthquake","Severe Drought","Wildfire","Flood","Hurricane","Blizzard","Heat Wave"],
+		'event' : "All Events",
 		'goCat' : 'all',
 		'need' : 'Documents',
 		'descrip' : 'Copies of your important documents in a waterproof and portable container (insurance cards, birth certificates, deeds, photo IDs, proof of address, etc.)',
 		'icon' : iMap
 	},
 	{
-		'event' : ["All Events","Earthquake","Severe Drought","Wildfire","Flood","Hurricane","Blizzard","Heat Wave"],
+		'event' : ["Earthquake","Flood","Hurricane","Blizzard"],
 		'goCat' : 'all',
 		'need' : 'Keys',
 		'descrip' : 'Extra set of car and house keys',
@@ -433,6 +434,7 @@ var carKit = [
 	}
 ]
 var kits = [goKit, stayKit, seniorKit, petKit, carKit]
+
 var events = ["All Events","Earthquake","Severe Drought","Wildfire","Flood","Hurricane","Blizzard","Heat Wave"]
 var avgCal = [
     {"label":"Adult Male", "value": 2445},
