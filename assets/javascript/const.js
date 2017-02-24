@@ -64,6 +64,8 @@ var nyc = [
     ["car", "batter", "Booster cables or battery"],
     ["car", "hazard", "Brightly colored cloth to use as a flag_ flares or reflective triangles"]
 */];
+$('select').selectmenu();
+
 var nycObs = [];
 var newObj = new Makeobj('name', 'need', 'description');
 var curObj;
