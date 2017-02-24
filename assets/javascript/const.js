@@ -3,10 +3,10 @@ $(document).ready(function(){
 var nyc = [
     ["all", iHome, iSecurity,"In - home shelter", "When warned of an emergency situation reaching your home, fill your bathtub with water.  Having a clean, waterproof liner stored under the bathroom sink will help ensure that the water will not leak, and you also will not have to scrub the tub before filling it "],
     ["all", iWater, iHome, "Water for your home", "When warned of an emergency situation reaching your home, fill your bathtub with water.  Having a clean, waterproof liner stored under the bathroom sink will help ensure that the water will not leak, and you also will not have to scrub the tub before filling it "],
-    ["all", iWater, iCar, "Water for your evacuation", "Evacuation or On The Go: Water bottles with purifying filters. They are easy to pack. Also water bubblers are usually highly regulated, safe, clean sources of water. (Mobile apps such as Fountain Finder or WeTap can assist you in finding a bubbler nearby.\)   "],
-    ["all", iFood, iHome, "Non-perishable food for your home", "nonperishable food"],
-    ["all", iFood, iCar, "Non-perishable food for evacuation", "nonperishable food"],
-    ["all", iMedkit, iPerson, "Medications and Prescriptions", "FA list of the medications each member of your household takes_ why they take them_ and their dosages. If you store extra medication in your Go Bag_ be sure to refill it before it expires. Get prescription preparedness tips from the LA Department of Health & Mental Hygiene"],
+    ["all", iWater, iCar, "Water - evacuation", "Evacuation or On The Go: Water bottles with purifying filters. They are easy to pack. Also water bubblers are usually highly regulated, safe, clean sources of water. (Mobile apps such as Fountain Finder or WeTap can assist you in finding a bubbler nearby.\)   "],
+    ["all", iFood, iHome, "Non-perishable food - home", "nonperishable food"],
+    ["all", iFood, iCar, "Non-perishable food - evacuation", "nonperishable food"],
+    ["all", iMedkit, iPerson, "Medications and Rx's", "FA list of the medications each member of your household takes_ why they take them_ and their dosages. If you store extra medication in your Go Bag_ be sure to refill it before it expires. Get prescription preparedness tips from the LA Department of Health & Mental Hygiene"],
     ["all", iMedkit, iHome, "First aid kit", "First-aid kit"],
     ["all", iMoney, iHome, "Cash (in small bills)", "Cash (in small bills)"],
 /*  
