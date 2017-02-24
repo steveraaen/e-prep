@@ -64,7 +64,9 @@ width:100%;
 	margin-right: 40px;
 }
 h1{
-font-style: serif;
+font-family: 'Cinzel', serif;
+letter-spacing: 2px;
+
 }
 .ui-controlgroup, .topBtn{
 	font-size: 12px;
