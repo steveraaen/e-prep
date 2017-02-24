@@ -69,7 +69,9 @@ font-style: serif;
 .ui-controlgroup, .topBtn{
 	font-size: 12px;
 }
-
+.ui-table-columntoggle-btn {
+    display: none !important;
+}
 
 
 

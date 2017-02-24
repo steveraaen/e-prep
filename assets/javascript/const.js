@@ -97,7 +97,7 @@ var d = $(this).find(".des").html();
 }
 })
 
-
+$('.ui-table-columntoggle-btn').hide();
 
 
 
