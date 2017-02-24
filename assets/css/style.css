@@ -74,7 +74,11 @@ letter-spacing: 2px;
 .ui-table-columntoggle-btn {
     display: none !important;
 }
-
+option {
+	text-align: center;
+    font-size: 14px !important;
+    font-weight: bold;
+}
 
 
 
