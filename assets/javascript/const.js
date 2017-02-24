@@ -99,6 +99,10 @@ var d = $(this).find(".des").html();
 
 $('.ui-table-columntoggle-btn').hide();
 
+$('.select').on('click', function() {
+    $(this).addClass("active");
+});
+
 
 
 
