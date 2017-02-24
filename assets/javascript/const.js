@@ -1,12 +1,24 @@
 
 $(document).ready(function(){
 var nyc = [
+    ["all", iHome, iSecurity,"In - home shelter", "When warned of an emergency situation reaching your home, fill your bathtub with water.  Having a clean, waterproof liner stored under the bathroom sink will help ensure that the water will not leak, and you also will not have to scrub the tub before filling it "],
+    ["all", iWater, iHome, "Water for your home", "When warned of an emergency situation reaching your home, fill your bathtub with water.  Having a clean, waterproof liner stored under the bathroom sink will help ensure that the water will not leak, and you also will not have to scrub the tub before filling it "],
+    ["all", iWater, iCar, "Water for your evacuation", "Evacuation or On The Go: Water bottles with purifying filters. They are easy to pack. Also water bubblers are usually highly regulated, safe, clean sources of water. (Mobile apps such as Fountain Finder or WeTap can assist you in finding a bubbler nearby.\)   "],
+    ["all", iFood, iHome, "Non-perishable food for your home", "nonperishable food"],
+    ["all", iFood, iCar, "Non-perishable food for evacuation", "nonperishable food"],
+    ["all", iMedkit, iPerson, "Medications and Prescriptions", "FA list of the medications each member of your household takes_ why they take them_ and their dosages. If you store extra medication in your Go Bag_ be sure to refill it before it expires. Get prescription preparedness tips from the LA Department of Health & Mental Hygiene"],
+    ["all", iMedkit, iHome, "First aid kit", "First-aid kit"],
+    ["all", iMoney, iHome, "Cash (in small bills)", "Cash (in small bills)"],
+/*  
+    ["all", iPlace, "meetPlace", "Contact and meeting place information for your household_ and a small regional map"],
+    ["car", "clothes", "Extra mittens_ socks_ scarves and hat_ raingear and extra clothes"],
     ["all", iMap, "docs", "Copies of your important documents in a waterproof and portable container (insurance cards_ birth certificates_ deeds_ photo IDs_ proof of address_ etc.)"],
     ["all", iKey, "keys", "Extra set of car and house keys"],
     ["all", iCredit, "cards", "Copies of credit/ATM cards"],
     ["all", iMoney, "cash", "Cash (in small bills)"],
     ["all", iWater, "water", "Bottled water"],
-    ["all", iFood, "food", "nonperishable food"],
+    ["all", iPlace, "meetPlace", "Contact and meeting place information for your household_ and a small regional map"],
+ 
     ["all", iLight, "light", "Flashlight (Note-Traditional flashlight bulbs have limited lifespans. Light Emitting Diode (LED) flashlights_ however_ are more durable and last up to 10 times longer than traditional bulbs.)"],
     ["all", iRadio, "radio", "Battery-operated AM/FM radio"],
     ["all", iBattery, "batteries", "Extra batteries/chargers"],
@@ -14,18 +26,16 @@ var nyc = [
     ["all", iMedkit, "first_aid", "First-aid kit"],
     ["all", iMug, "toiletries", "Toiletries"],
     ["all", iPencil, "writing", "Notepad and pen"],
-    ["all", iPlace, "meetPlace", "Contact and meeting place information for your household_ and a small regional map"],
-    ["all", iUmbrella, "rain", "Lightweight raingear and Mylar blanket"],
+   ["all", iUmbrella, "rain", "Lightweight raingear and Mylar blanket"],
     ["elder", iTech, "tech", "Instructions and extra batteries for any devices you use"],
     ["elder", iSenior, "tires", "Aerosol tire repair kits and/or tire inflator to repair flat wheelchair or scooter tires"],
     ["elder", iMedkit, "backUpMed", "Back-up medical equipment"],
-    ["elder", iBed, "comfort", "Items to comfort you in a stressful situation"],
     ["pet", iPhoto, "photo", "A current color photograph of you and your pet together (in case you are separated)"],
     ["pet", iInfo, "vetData", "Copies of medical records that indicate dates of vaccinations and a list of medications your pet takes and why he or she takes them"],
     ["pet", iIdCard, "proof", "Proof of identification and ownership_ including copies of registration information_ adoption papers_ proof of purchase_ and microchip information"],
     ["pet", iMap, "desc", "Physical description of your pet_ including species_ breed_ age_ sex_ color_ distinguishing traits_ and any other vital information about characteristics and behavior"],
     ["pet", iPaw, "vetSupplies", "Animal first aid kit_ including flea and tick treatment and other items recommended by your veterinarian"],
-/*    ["pet", "goFood", "Food for at least three days"],
+  ["pet", "goFood", "Food for at least three days"],
     ["pet", "goWater", "water for at least three days"],
     ["pet", "dishes", "Food and water dishes"],
     ["pet", "crate", "Collapsible cage or carrier"],
@@ -61,11 +71,12 @@ var panel = $('#mypanel');
 function Makeobj() {
 for (let i = 0; i < nyc.length; i++) {
     this.kIcon = nyc[i][1];
-    this.kNeed = nyc[i][2];
-    this.kDesc = nyc[i][3];
+    this.kIcon2 = nyc[i][2];
+    this.kNeed = nyc[i][3];
+    this.kDesc = nyc[i][4];
     nycObs.push(this);
 
-    $('#myTable').append('<tr class = "show" data-role="button"><td class = "tCol1s">' + this.kNeed + '</td><td>' + this.kIcon + '</td><td class = "des">' + this.kDesc + '</td></tr>')
+    $('#myTable').append('<tr class = "show" ><td class = "tCol1s">' + this.kNeed + '</td><td>' + this.kIcon + '</td><td>' + this.kIcon2 + '</td><td  class = "des">' + this.kDesc + '</td></tr>')
     $('.des').hide();
 /*    console.log(this)*/
 }

@@ -27,5 +27,74 @@ span{
 }
 #mypanel{
 	font-size: 20px;
-	
+	padding: 10px 5px 10px 0px;	
 }
+.ui-controlgroup-controls {
+    width:100% !important;
+}
+
+.ui-select {
+    width:33% !important;
+} 
+.twoBtns{
+	float: top;
+}
+.tab{
+overflow: auto;
+}
+.tCol1s{
+	font-style: oblique;
+
+}
+.ui-header {
+width:100%;
+}
+.ui-panel {
+    width: 13em;
+    padding-left: 5em;
+}
+.show{
+	background-color: gray;
+	color: black;
+}
+.copyright{
+	font-size: 12px;
+}
+#purchaseBtn{
+	margin-right: 40px;
+}
+h1{
+font-style: serif;
+}
+.ui-controlgroup, .topBtn{
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

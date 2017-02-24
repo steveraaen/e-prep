@@ -1,6 +1,5 @@
 
 var iBank =  '<i class="fa fa-university" aria-hidden= "true"></i>';
-
 var iBattery = '<i class="fa fa-battery-half" aria-hidden="true"></i>';
 var iBed = '<i class="fa fa-bed" aria-hidden="true"></i>'
 var iBike = '<i class="fa fa-bicycle" aria-hidden="true"></i>'
@@ -24,12 +23,16 @@ var iMoney =  '<i class="fa fa-money" aria-hidden="true"></i>';
 var iMug = '<i class="fa fa-beer" aria-hidden="true"></i>'
 var iPaw =  '<i class="fa fa-paw" aria-hidden= "true"></i>';
 var iPencil = '<i class="fa fa-pencil" aria-hidden="true"></i>'
+var iPerson = '<i class="fa fa-user" aria-hidden="true"></i>'
 var iPhone = '<i class="fa fa-phone" aria-hidden="true"></i>'
 var iPhoto = '<i class="fa fa-picture-o" aria-hidden="true"></i>'
 var iPlace = '<i class="fa fa-map-marker" aria-hidden="true"></i>'
 var iRadio = '<i class="fa fa-wifi" aria-hidden="true"></i>';
+var iSecurity = '<i class="fa fa-shield" aria-hidden="true"></i>'
 var iSenior =  '<i class="fa fa-wheelchair-alt" aria-hidden= "true"></i>';
+var iSize = '<i class="fa fa-sitemap" aria-hidden="true"></i>'
 var iShop =  '<i class="fa fa-shopping-cart" aria-hidden= "true"></i>';
+var iSize = '<i class="fa fa-sitemap" aria-hidden="true"></i>'
 var iSpoon =  '<i class="fa fa-spoon" aria-hidden= "true"></i>';
 var iTech = '<i class="fa fa-usb" aria-hidden="true"></i>'
 var iTrain =  '<i class="fa fa-train" aria-hidden= "true"></i>';
@@ -39,7 +42,7 @@ var iUserCirc =  '<i class="fa fa-user-circle" aria-hidden= "true"></i>';
 var iWarn = '<i class="fa fa-exclamation" aria-hidden="true"></i>'
 var iWater = '<i class="fa fa-tint" aria-hidden="true"></i>';
 
-var icons = [iBank, iBed, iBattery, iBike, iCar, iChild, iCredit, iFemale, iFire, iFireEx, iFood, iHeart, iHome, iIdCard, iInfo, iKey, iLight, iMale, iMap, iMedkit, iMoney, iMug, iPaw, iPencil, iPhone, iPhoto, iPlace, iRadio, iSenior, iShop, iSpoon, iTech, iTrain, iUmbrella, iUnk, iUserCirc, iWarn, iWater]
+var icons = [iBank, iBed, iBattery, iBike, iCar, iChild, iCredit, iFemale, iFire, iFireEx, iFood, iHeart, iHome, iIdCard, iInfo, iKey, iLight, iMale, iMap, iMedkit, iMoney, iMug, iPaw, iPencil, iPhone, iPhoto, iPlace, iRadio, iSenior, iShop, iSize, iSpoon, iTech, iTrain, iUmbrella, iUnk, iUserCirc, iWarn, iWater]
 
 
 

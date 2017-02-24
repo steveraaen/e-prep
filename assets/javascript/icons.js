@@ -8,12 +8,16 @@
    var iFireEx =  '<i class="fa fa-fire-extinguisher" aria-hidden= "true"></i>';
    var iFire =  '<i class="fa fa-fire" aria-hidden= "true"></i>';
    var iHeart =  '<i class="fa fa-heart" aria-hidden= "true"></i>';
+   var iHome =  '<i class="fa fa-home" aria-hidden="true"></i>'
    var iInfo =  '<i class="fa fa-info" aria-hidden= "true"></i>';
    var iKey =  '<i class="fa fa-key" aria-hidden= "true"></i>';
    var iPaw =  '<i class="fa fa-paw" aria-hidden= "true"></i>';
+   var iPerson = '<i class="fa fa-user" aria-hidden="true"></i>'
    var iShop =  '<i class="fa fa-shopping-cart" aria-hidden= "true"></i>';
    var iSpoon =  '<i class="fa fa-spoon" aria-hidden= "true"></i>';
+   var iSecurity = '<i class="fa fa-shield" aria-hidden="true"></i>'
    var iSenior =  '<i class="fa fa-wheelchair-alt" aria-hidden= "true"></i>';
+   var iSize = '<i class="fa fa-sitemap" aria-hidden="true"></i>'
    var iMale =  '<i class="fa fa-mars" aria-hidden= "true"></i>';
    var iFemale =  '<i class="fa fa-venus" aria-hidden= "true"></i>';
    var iMedkit =  '<i class="fa fa-medkit" aria-hidden= "true"></i>';
@@ -38,7 +42,7 @@
    var iPhoto = '<i class="fa fa-picture-o" aria-hidden="true"></i>'
 
 
-   var icons = [iBank, iBed, iBattery, iBike, iCar, iChild, iCredit, iFemale, iFire, iFireEx, iFood, iHeart, iIdCard, iInfo, iKey, iLight, iMale, iMap, iMedkit, iMoney, iMug, iPaw, iPencil, iPhone, iPhoto, iPlace, iRadio, iSenior, iShop, iSpoon, iTech, iTrain, iUmbrella, iUnk, iUserCirc, iWater]
+   var icons = [iBank, iBed, iBattery, iBike, iCar, iChild, iCredit, iFemale, iFire, iFireEx, iFood, iHeart, iHome, iIdCard, iInfo, iKey, iLight, iMale, iMap, iMedkit, iMoney, iMug, iPaw, iPencil, iPerson, iPhone, iPhoto, iPlace, iRadio, iSecurity, iSenior, iShop, , iSize, iSpoon, iTech, iTrain, iUmbrella, iUnk, iUserCirc, iWater]
 
    })
 
