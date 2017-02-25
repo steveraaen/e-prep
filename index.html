@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Arvo|Bitter|Cinzel:400,700,900|Crimson+Text|Libre+Baskerville|Merriweather" rel="stylesheet">
     <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
@@ -11,8 +11,6 @@
     <!--     <script src="https://www.gstatic.com/firebasejs/3.6.7/firebase.js"></script>-->
     <!--     <script type="text/javascript" src="assets/javascript/places.js"></script> -->
     <script src="https://use.fontawesome.com/48a8c3f190.js"></script>
-    <!--     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCuNYS3J6WBPIJ2AdjRDWLp6NLqs1Nuxyg&libraries=places&callback=initMap" async defer></script>
- -->
     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <script type="text/javascript" src="assets/javascript/prep.js"></script>
@@ -106,13 +104,39 @@
         </div>
         <div id="menu" class="ui-nodisc-icon" data-role="popup">
             <ul data-role="listview" data-inset="true">
-                <li><a href="whatever">Local Resources</a></li>
+                <li><a href="#pagetwo">Local Resources</a></li>
                 <li><a href="whatever">Preparedness Links</a></li>
                 <li><a href= "https://www.liveprepared.com/">Live Prepared</a></li>
                 <li><a href="whatever">Login</a></li>
             </ul>
         </div>
     </div>
+    <div id="pagetwo">
+            <div data-role="header" class="ui-bar">
+            <a id="listBtn" class="ui-btn-mini topBtn" href="#menu" data-rel="popup"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a>
+            <h1>E-Prepare</h1>
+            <a id="purchaseBtn" class="ui-btn-mini topBtn " href="#pagetwo"><i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></a>
+        </div>
+   <div><span id="country"></span>
+   <div><span id="state"></span>
+   <div> <span id="city"></span>
+   <div><span id="latitude"></span>
+   <div><span id="longitude"></span>
+   <div><span id="IPv4"></span>
+   <script>
+     $.getJSON('https://geoip-db.com/json/geoip.php?jsonp=?') 
+        .done (function(location)
+        {console.log(location);
+          $('#country').html(location.country_name);
+          $('#state').html(location.state);
+          $('#city').html(location.city);
+          $('#postal').html(location.postal);
+          $('#latitude').html(location.latitude);
+          $('#longitude').html(location.longitude);
+          $('#ip').html(location.IPv4);               
+        });
+    </script>
+    </div>
 </body>
-
+</html>
 </html>
