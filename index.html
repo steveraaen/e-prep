@@ -29,8 +29,7 @@
 
 <body>
     <div data-role="panel" id="mypanel">
-        <br>
-        <br>
+
     </div>
     <div data-role="page" data-theme="a" id="pageone">
         <div data-role="header" class="ui-bar">
@@ -111,32 +110,32 @@
             </ul>
         </div>
     </div>
-    <div id="pagetwo">
+<!--     <div id="pagetwo">
             <div data-role="header" class="ui-bar">
             <a id="listBtn" class="ui-btn-mini topBtn" href="#menu" data-rel="popup"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a>
             <h1>E-Prepare</h1>
             <a id="purchaseBtn" class="ui-btn-mini topBtn " href="#pagetwo"><i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></a>
         </div>
-   <div><span id="country"></span>
-   <div><span id="state"></span>
-   <div> <span id="city"></span>
-   <div><span id="latitude"></span>
-   <div><span id="longitude"></span>
-   <div><span id="IPv4"></span>
+   <div><span id="country"></span></div>
+   <div><span id="state"></span></div>
+   <div> <span id="city"></span></div>
+   <div><span id="latitude"></span></div>
+   <div><span id="longitude"></span></div>
+   <div><span id="IPv4"></span></div>
    <script>
      $.getJSON('https://geoip-db.com/json/geoip.php?jsonp=?') 
         .done (function(location)
         {console.log(location);
-          $('#country').html(location.country_name);
-          $('#state').html(location.state);
-          $('#city').html(location.city);
-          $('#postal').html(location.postal);
-          $('#latitude').html(location.latitude);
-          $('#longitude').html(location.longitude);
-          $('#ip').html(location.IPv4);               
+          $('#country').text(location.country_name);
+          $('#state').text(location.state);
+          $('#city').text(location.city);
+          $('#postal').text(location.postal);
+          $('#latitude').text(location.latitude);
+          $('#longitude').text(location.longitude);
+          $('#ip').text(location.IPv4);               
         });
     </script>
-    </div>
+    </div> -->
 </body>
 </html>
 </html>

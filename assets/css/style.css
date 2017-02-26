@@ -42,10 +42,9 @@ span{
 .tab{
 overflow: auto;
 }
-.tCol1s{
+/*.tCol1s{
 	font-style: oblique;
-
-}
+}*/
 .ui-header {
 width:100%;
 }
