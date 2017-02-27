@@ -25,9 +25,22 @@ span{
 .tCol1 {
 	width: 10%;
 }
-#mypanel{
+/*.ui-pannel-inner {
 	font-size: 20px;
-	padding: 10px 5px 10px 0px;	
+	padding: 2px 2px 2px 2px;	
+	margin: 2px 2px 2px 2px;
+}*/
+.ui-panel {
+    width: 13em;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    font-size: 18px;
+letter-spacing: 2px;
+line-height: 1.5;
+}
+.pan{
+	color: 
 }
 .ui-controlgroup-controls {
     width:100% !important;
@@ -48,10 +61,7 @@ overflow: auto;
 .ui-header {
 width:100%;
 }
-.ui-panel {
-    width: 13em;
-    padding-left: 5em;
-}
+
 .show{
 	background-color: gray;
 	color: black;
@@ -65,7 +75,10 @@ width:100%;
 h1{
 font-family: 'Cinzel', serif;
 letter-spacing: 2px;
-
+}
+h2{
+	color: #ffcc33;
+	font-weight: bold;
 }
 .ui-controlgroup, .topBtn{
 	font-size: 12px;
@@ -81,8 +94,6 @@ option {
 .active{
 	background-color: blue;
 }
-
-
 
 
 
