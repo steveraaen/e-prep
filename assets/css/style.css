@@ -25,6 +25,9 @@ span{
 .tCol1 {
 	width: 10%;
 }
+a {
+	color: #ffcc33;
+}
 /*.ui-pannel-inner {
 	font-size: 20px;
 	padding: 2px 2px 2px 2px;	
